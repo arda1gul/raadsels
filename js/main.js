@@ -51,7 +51,25 @@ function raadsel5() {
     alert("Slim")
    } else if (raadsel5 === "GEEN STOOM") {
     alert("Slim")
+   } else if (raadsel5 === "ER KOMT GEEN STOOM UIT") {
+    alert("Slim")
    } else {
     alert("Fout!")
    }
+}
+
+function raadsel6() {
+    let raadsel6 = prompt("Waarom wordt er in China meer rijst gegeten dan in Japan?")
+    raadsel6 = raadsel6.toUpperCase();
+    if (raadsel6 === "CHINA IS GROTER") {
+        alert("Goed, logisch toch")
+    } else if (raadsel6 === "OMDAT CHINA GROTER IS DAN JAPAN") {
+        alert("Goed, logisch toch")
+    } else if (raadsel6 === "JAPAN IS NIET GROOT ALS CHINA") {
+        alert("Goed, logisch toch")
+    } else if (raadsel6 === "CHINA IS GROTER DAN JAPAN") {
+        alert("Goed, logisch toch")
+    } else {
+        alert("Fout!")
+    }
 }
