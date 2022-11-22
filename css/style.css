@@ -1,0 +1,21 @@
+body {
+    background-color: #121212;
+}
+
+.raadsel {
+    cursor: pointer;
+    display: block;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+.titel {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
