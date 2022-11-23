@@ -55,3 +55,13 @@ function raadsel5() {
     alert("Fout!")
    }
 }
+
+function raadsel6() {
+    let raadsel6 = prompt("Welk cijfer moet de volgende zijn in onderstaande reeks 2 – 5 – 11 – 23");
+    raadsel6 = raadsel6.toUpperCase();
+    if (raadsel6 === "47") {
+        alert("Correct")
+    } else {
+        alert("Kijk nog eens goed want het is fout")
+    }
+}
