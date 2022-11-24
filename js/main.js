@@ -65,3 +65,13 @@ function raadsel6() {
         alert("Kijk nog eens goed want het is fout")
     }
 }
+
+function raadsel7() {
+    let raadsel7 = prompt("Welk water kun je eten en kauwen?")
+    raadsel7 = raadsel7.toUpperCase();
+    if (raadsel7 === "WATERMELOEN") {
+        alert("haha, goed")
+    } else {
+        alert("Het is echt een heel logisch antwoord, kijk eens nog een keer")
+    }
+}
