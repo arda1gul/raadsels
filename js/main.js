@@ -72,6 +72,6 @@ function raadsel7() {
     if (raadsel7 === "WATERMELOEN") {
         alert("haha, goed")
     } else {
-        alert("Het is echt een heel logisch antwoord, kijk eens nog een keer")
+        alert("Het is echt een heel logisch antwoord, kijk eens nog een keer.")
     }
 }
