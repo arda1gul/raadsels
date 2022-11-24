@@ -73,3 +73,13 @@ function raadsel6() {
         alert("Fout!")
     }
 }
+
+function raadsel7() {
+    let raadsel7 = prompt("Welke water kun je eten en kauwen?")
+    raadsel7 = raadsel7.toUpperCase();
+    if (raadsel7 === "WATERMELOEN") {
+        alert("haha, goed")
+    } else {
+        alert("Dat is niet goed!")
+    }
+}
